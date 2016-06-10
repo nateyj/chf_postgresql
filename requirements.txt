@@ -1,0 +1,5 @@
+Django==1.9.7
+django-mako-plus==3.3.16
+Mako==1.0.4
+MarkupSafe==0.23
+psycopg2==2.6.1
