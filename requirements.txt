@@ -3,3 +3,5 @@ django-mako-plus==3.3.16
 Mako==1.0.4
 MarkupSafe==0.23
 psycopg2==2.6.1
+rcssmin==1.0.6
+rjsmin==1.0.12
