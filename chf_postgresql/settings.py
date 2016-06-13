@@ -128,6 +128,7 @@ TEMPLATES = [
             # it can normally be empty
             'TEMPLATES_DIRS': [
                 # '/var/somewhere/templates/',
+                '/var/templates/',
             ],
         },
     },
