@@ -216,8 +216,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
  # SECURITY WARNING: this next line must be commented out at deployment
- # BASE_DIR,
-    '/var/www/static/',
+    # BASE_DIR,
 )
 
 STATIC_ROOT = os.path.join(BASE_DIR, '..', 'www', 'static')
