@@ -219,6 +219,6 @@ STATICFILES_DIRS = (
     # BASE_DIR,
 )
 
-# STATIC_ROOT = os.path.join(BASE_DIR, 'static')  # DMP tutorial
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')  # DMP tutorial
 # STATIC_ROOT = os.path.join(BASE_DIR, '..', 'www', 'static') # deploying django app to aws elastic beanstalk tutorial
-STATIC_ROOT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'static') # AWS EB developer's guide
+# STATIC_ROOT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'static') # AWS EB developer's guide
