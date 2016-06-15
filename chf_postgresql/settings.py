@@ -216,7 +216,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
  # SECURITY WARNING: this next line must be commented out at deployment, but static files won't render for local testing if it is commented out
-    BASE_DIR,
+    # BASE_DIR,
 )
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')  # DMP tutorial
